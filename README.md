@@ -90,7 +90,13 @@ Place cover images in `public/images/projects/`:
 - Recommended: **16:9 aspect ratio**, 1200×675px minimum
 
 ### CV / Resume
-Place your PDF resume at:
+Place the PDF at the root of the `public/` directory with this exact filename:
+
+```
+public/Faizan_Euro-Pass_CV.pdf
+```
+
+The navbar uses `/Faizan_Euro-Pass_CV.pdf` for both desktop and mobile Resume links.
 ```
 public/Faizan_Ali_CV.pdf
 ```

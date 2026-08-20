@@ -1,5 +1,6 @@
 'use client'
 
+import { resumeUrl } from '@/data/media'
 import { Github, Linkedin, Mail, Menu, X } from 'lucide-react'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
@@ -73,7 +74,7 @@ export default function Navbar() {
             About
           </a>
           <a
-            href="/images/Faizan_Ali_CV.pdf"
+            href={resumeUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm border border-charcoal px-4 py-1.5 rounded-full hover:bg-charcoal hover:text-cream transition-all duration-200"
@@ -102,7 +103,7 @@ export default function Navbar() {
             About
           </a>
           <a
-            href="/images/Faizan_Ali_CV.pdf"
+            href={resumeUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm"

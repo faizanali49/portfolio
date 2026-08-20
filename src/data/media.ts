@@ -23,6 +23,8 @@ const imageUrl = (publicId: string | undefined, fallback: string) =>
 const videoUrl = (publicId: string | undefined, fallback: string) =>
   cloudinaryUrl('video', publicId, fallback)
 
+export const resumeUrl = '/Faizan_Euro-Pass_CV.pdf'
+
 export const heroMedia = {
   orbitImages: [
     { label: 'before coding days i was happy', src: imageUrl(process.env.NEXT_PUBLIC_CLOUDINARY_ORBIT_1_ID, '/images/orbit/orbit-1.jpg') },
